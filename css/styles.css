@@ -1,0 +1,159 @@
+#title{
+    background-color:#B9005B;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.img-dog{
+  width:55%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 10%;
+ 
+  
+}
+h1{
+    font-size: 9rem;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    right: -15%;
+   line-height: 9;
+}
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+}
+    
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 70%;
+  padding-left: 60px;
+
+}
+.navbar{
+  padding:0 0 4.5rem;
+  margin-bottom: 5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.navbar-nav{
+  width: 100;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+p{
+  color: gray;
+}
+#testimonials{
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 40px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.logos{
+    width: 15%;
+    margin: 20px 20px 50px;
+      padding-bottom: 4%;
+}
+.feature-img{
+  color: #ff4c68;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.fa-brands{
+  padding: 2%;
+}
+.btn-download{
+  display: inline;
+}
+  .title-page{
+    padding-bottom: 15%;
+  }
+  .btn-download{
+    position: relative;
+    right: -13%;
+  }
+  
+  @media(max-width:991px){
+    .img-dog{ 
+      position:static;
+      transform: rotate(0deg);
+    }
+    #title-page{
+      text-align: center;
+      padding-top: 70px;
+    }
+    .img-dog{
+      margin-left: 100px;
+      width: 50%;
+      margin-left: 250px;
+      
+    }
+    .img-dog-container {
+      padding-bottom: 0;
+    }
+     .heading-title{
+      position: relative;
+      left: 0%;
+      right: 0%;
+      text-align: center;
+     }
+     .btn-download{
+      
+      padding-left: 180px;
+     }
+  }
+  #cta{
+    background-color: #B9005B;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    
+  }
+  .title-end{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+  }
+  #footer{
+    text-align: center;
+  }
